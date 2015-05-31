@@ -1,0 +1,49 @@
+{
+  "name": "mobile-driver",
+  "version": "0.1.0",
+  "description": "automation driver for mobile",
+  "keywords": ["automation", "webdriver", "mobile", "ui automation", "test framework"],
+  "bin": {
+    "driver": "./bin/mobile-driver",
+    "mobile": "./bin/mobile-driver",
+    "mobile-driver": "./bin/mobile-driver"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xudafeng/mobile-driver.git"
+  },
+  "dependencies": {
+    "co": "3",
+    "co-request": "~0.2.0",
+    "commander": "~2.8.1",
+    "detect-port": "~0.1.2",
+    "lodash": "~3.5.0",
+    "moment": "~2.9.0",
+    "appium-sdk": "~0.1.0",
+    "mocha": "2.2.4",
+    "ipv4": "*"
+  },
+  "devDependencies": {
+    "mocha": "2.2.4",
+    "co-mocha": "*",
+    "istanbul": "*",
+    "should": "~6.0.3",
+    "jshint": "*"
+  },
+  "scripts": {
+    "test": "make test",
+    "jshint": "make jshint"
+  },
+  "precommit": [
+    "jshint"
+  ],
+  "engines": {
+    "node": ">= 1.5.x"
+  },
+  "author": "xudafeng",
+  "homepage": "https://github.com/xudafeng/mobile-driver",
+  "email": "xudafeng@126.com",
+  "blog": "http://xdf.me",
+  "license": "MIT"
+}
