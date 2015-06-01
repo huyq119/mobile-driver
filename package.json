@@ -1,6 +1,6 @@
 {
   "name": "mobile-driver",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "automation driver for mobile",
   "keywords": ["automation", "webdriver", "mobile", "ui automation", "test framework"],
   "bin": {
@@ -20,12 +20,11 @@
     "detect-port": "~0.1.2",
     "lodash": "~3.5.0",
     "moment": "~2.9.0",
-    "appium-sdk": "~0.1.0",
+    "appium-sdk": "~0.1.1",
     "mocha": "2.2.4",
     "ipv4": "*"
   },
   "devDependencies": {
-    "mocha": "2.2.4",
     "co-mocha": "*",
     "istanbul": "*",
     "should": "~6.0.3",

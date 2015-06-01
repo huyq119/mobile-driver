@@ -9,3 +9,9 @@ coverage/
 *.html
 plugins/
 docs/
+*.swp
+*.swo
+*.swn
+*.swm
+*.swl
+.sw*
